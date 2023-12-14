@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +10,8 @@
     <title>Tienda</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/registro.css">
 </head>
 
 <body>
@@ -33,10 +39,77 @@
                   <li><a class="dropdown-item" href="accesorios.php">Accesorios</a></li>
                 </ul>
             </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="nosotros.php">Nosotros</a>
                 </li>
             </ul>
+
+            <button id="loginBtn" class="btn btn-outline-success ">Iniciar Sesion</button>
+    <div id="loginModal" class="modal">
+        <div class="formulario">
+            <span class="close">&times;</span>
+            <h1>Iniciar Sesion</h1>
+            <form method="post">
+                <div class="username">
+                    <input type="text" required>
+                    <label>Usuario</label>
+                </div>
+                <div class="password">
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordar">¿Olvido su contraseña</div>
+                    <input type="submit" value="Iniciar">
+                <div class="cuenta">
+                    Ya tengo una cuenta <a href="#">aca</a>
+                </div>
+                    
+                
+               
+            </form>
+        </div>
+    </div>
+    <button id="loginBtn1" class="btn btn-outline-success">Registrarse</button>
+    <div id="loginModal1" class="modal">
+        <div class="formulario">
+            <span class="close1">&times;</span>
+            <h1>Registrarme</h1>
+            <form method="post">
+                <div class="nombre">
+                    <input type="text" required>
+                    <label>Nombre</label>
+                </div>
+                <div class="apellido">
+                    <input type="text" required>
+                    <label>Apellido</label>
+                </div>
+                <div class="usuario">
+                    <input type="text" required>
+                    <label>Usuario</label>
+                </div>
+                <div class="mail">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="password">
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="password">
+                    <input type="password" required>
+                    <label>Repetir contraseña</label>
+                </div>
+                    <input type="submit" value="Registrarme" >
+                <div class="cuenta">
+                    Ya tengo una cuenta <a href=" ../login/login.html" >aca</a>
+                </div>
+                    
+                
+               
+            </form>
+        </div>
+    </div>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
@@ -182,7 +255,8 @@
     </ul>
     <p class="text-center text-muted">fasjkdbfkbkasbdfkbasdkb</p>
 <footer>
-
+<script src="../js/registro.js"></script>
+<script src="../js/login.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
