@@ -1,0 +1,18 @@
+body{
+    font-family: 'Lato';
+    color: #333;
+    background-color: #F1F6F9;
+}
+.carrito{
+    list-style: none;
+    background-color: white;
+    color: white;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+}

@@ -1,0 +1,246 @@
+*::after,
+*::before,
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: "Times New Roman', Times, serif";
+    color: #ffffff;
+    font-weight: 600;
+
+}
+.linea{
+    width: 1px;
+    height: 100vh;
+    background-color: gray;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+
+
+.icon-cart {
+    width: 40px;
+    height: 40px;
+}
+
+.img{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.20);
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display:flex;
+    flex-direction: column;
+    gap: 1opx;
+
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+     
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+
+#productos-destacados .programas {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+    color: black;
+    
+  
+    
+}
+
+/*estrellita*/
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+    
+    
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: rgb(255, 255, 255);
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    position: absolute;
+    top: 14%;
+    left: 104%;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.back{
+    height: 5vh;
+    padding: 32px 0;
+    background-color: #5a5ab9;
+    opacity: 0.5;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 30px;
+    height: 30px;
+   
+
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ebcee6;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #e69cd6;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+@media(max-width:991px){
+
+    .menu{
+        padding: 30px;
+    }
+    .menu label {
+        display: initial;
+    }
+
+    .back{
+        padding: 40px 0;
+    }
+
+    .menu .navbar{
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color:  #707093;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+
+        display: initial;
+    }
+
+
+}
+
+
+.buscador input{
+
+    width: 300px;
+    height: 25px;
+    background-color: rgb(rgba(248, 172, 232, 0.171));
+}

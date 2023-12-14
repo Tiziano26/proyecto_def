@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato';
+    color: #333;
+    background-color: #F1F6F9;
+}
+
+.icon-cart {
+    width: 40px;
+    height: 40px;
+}
+
+
+.carrito{
+    list-style: none;
+    background-color: white;
+    color: white;
+    align-items: center;
+}
+
+.titulo{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.infotitulo{
+    position: absolute;
+    top: 27%;
+    left: 5%;
+}
+
+.famosas{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+}
+
+.heavy{
+    position: absolute;
+    top: 63%;
+    left: 5%;
+
+}
+
+.heavy2{
+    position: absolute;
+    top: 82%;
+    left: 5%;
+}
+
+.infoheavy{
+    position: absolute;
+    top: 72%;
+    left: 5%;
+}
+
+.infoheavy2{
+    position: absolute;
+    top: 88%;
+    left: 5%;
+}
+
+.mikementzer{
+    position: absolute;
+    top: 175%;
+    left: 38%;
+}
+
+.arnold{
+    position: absolute;
+    top: 250%;
+    left: 5%;
+}
+
+.infoarnold{
+    position: absolute;
+    top: 259%;
+    left: 5%;
+
+}
+
+.arnold2{
+    position: absolute;
+    top: 269%;
+    left: 5%;
+}
+
+.infoarnold2{
+    position: absolute;
+    top: 277%;
+    left: 5%;
+}
+
+.arnoldfoto{
+    position: absolute;
+    top: 368%;
+    left: 38%;
+}
+
+
+.ppl{
+    position: absolute;
+    top: 443%;
+    left: 5%;
+}
+
+
+.infoppl{
+    position: absolute;
+    top: 452%;
+    left: 5%;
+
+}
+
+.ppl2{
+    position: absolute;
+    top: 462%;
+    left: 5%;
+
+}
+
+.infoppl2{
+    position: absolute;
+    top: 470%;
+    left: 5%;
+}
+
+.fin{
+    position: absolute;
+    top: 580%;
+    width: 100%;
+}
